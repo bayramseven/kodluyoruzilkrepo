@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'> <!--Türkçe dil desteği-->
+        <title>FORMLAR</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'> <!--responsive tasarımlar içinn-->
+    </head>
+
+    <body>
+      
+        <form>
+            <label for="name">Adınız </label> <br />
+            <input type="name" id="name" name="name"> <br />
+            
+            <label for="surname">Soy Adınız</label> <br />
+            <input type="surname" id="surname" name="surname"> <br />
+            
+            <label for="email"> e mailini</label><br />
+            <input type="email" name="email" id="email"><br />
+            
+            <label for="password">şifreniz</label><br />
+            <input type="password" name="password"id="password"><br />
+           
+            <label for="date">Tarih</label><br />
+            <input type="date" name="date" id="date" > <br />
+
+                Cinsiyet <br />
+                male
+                <input type="radio" name="gender" value="male" /> <br />
+                
+                female
+                <input type="radio" name="gender" value="female" /> <br />
+
+                el freni ile kalkan
+                <input type="radio" name="gender" value="other" /> <br />
+
+                    HOBİLER  <br>
+                    hüptürükhüpletmek
+                    <input type="checkbox" name="hüptürükhüpletmek" > <br />
+                    yürüyüş yapmak
+                    <input type="checkbox" name="yürüyüş yapmak" > <br />
+                    basketbol sahasında voleybol topu ile futbol oynamak
+                    <input type="checkbox" name="basketbol sahasında voleybol topu ile futbol oynamak" > <br />
+
+
+                        Lisans Dereceniz <br />
+                        <select name="degree" id="degree" > 
+                            <option value="bachelor">Lisans</option> 
+                            <option value="msc">Yüksek Lİsans</option> 
+                            <option value="phd"selected>Doktora</option>
+                        </select>  <br />
+                           
+                                <textarea name="message" id="message" placeholder="Mesajlarınız Umrumuzda Değil..."></textarea> <br />
+                                <button type="submit">GÖNDER</button>
+                                <button type="reset">Tümünü Sil</button>
+        </form>
+        
+    </body>
+
+</html>
